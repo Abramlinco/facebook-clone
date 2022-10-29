@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #212338;
+}
+
+#container {
+    display: inline-block;
+    background-color: #eff0f5;
+    width: 80%;
+    height: 560px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.header {
+    display: inline-flexbox;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    background-color: #3b5999;
+    border-radius: 5px;
+    margin-top: 4px;
+    height: 80px;
+} 
+nav {
+    display: inline-block;
+}
+
+h2 {
+   padding-top: 19px;
+   padding-left: 10px;
+    color: white;
+    float: left;
+}
+
+label {
+    color: white;
+}
+
+#enter {
+    margin-top: 10px;
+    margin-left: 270px;
+    float: right;
+}
+
+h3 {
+    margin-top: 4px;
+    margin-left: 167px;
+    font-weight: 20px;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.884);
+}
+
+img#imga {
+    margin-top: 18px;
+    margin-left: 15px;
+    width: 13%;
+    height: auto;
+}
+
+#log {
+    color: white;    
+    margin-left: 13px;
+    background-color: #4167b2;
+    box-shadow: 1px 1px 3px rgb(9, 111, 206);
+    width: 50px;
+    height: 19px;
+    border: none;
+}
+
+label#Password {
+    margin-left: 56px;
+}
+
+#in2 {
+    margin-top: 4px;
+    border: 1px solid rgb(172, 168, 168);
+    border-radius: 2px;
+    height: 20px;
+}
+
+#in1 {
+    margin-top: 4px;
+    margin-left: 8px;
+    border: 1px solid rgb(172, 168, 168);
+    border-radius: 2px;
+    height: 20px;
+}
+
+.left {
+    margin-top: 40px;
+    width: 38%;
+    margin-left: 20px;
+    float: left;
+}
+
+.right {
+    margin-top: 10px;
+    margin-right: 80px;
+    float: right;
+    width: 30%;
+}
+#sel {
+    margin-top: 3px;
+}
+
+#first {
+    margin-left: 7px;
+    border: 1px solid rgb(172, 168, 168);
+    border-radius: 2px;
+    height: 25px;
+}
+
+
+#last {
+    border: 1px solid rgb(172, 168, 168);
+    border-radius: 2px;
+    height: 25px;
+}
+
+
+.mobile {
+    margin-top: 10px;
+    width: 318px;
+    border: 1px solid rgb(172, 168, 168);
+    border-radius: 2px;
+    height: 25px;
+}
+
+.pass {
+    margin-top: 10px;
+    width: 318px;
+    border: 1px solid rgb(172, 168, 168);
+    border-radius: 2px;
+    height: 25px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+#Gen {
+    margin-top: 10px;
+}
+
+#pa2 {
+    color: gray;
+}
+
+.sp1, .sp2, .sp3 {
+    color: rgba(0, 0, 255, 0.719);
+}
+
+#radio {
+    margin-top: 10px;
+    margin-left: 10px;
+    word-spacing: 17px;
+    initial-letter-align: right;
+}
+
+#rd1, #rd2, #rd3 {
+    margin-left: 5px;
+}
+
+.Female {
+    margin-left: 5px;
+}
+
+#Bir, #gend {
+    color: rgba(29, 28, 28, 0.904);
+}
+
+@media (max-width:900px) {
+    nav {
+        width: 100%;
+    }
+
+    #container {
+        width: 100%;
+    }
+
+    #enter {
+        margin-left: 400px;
+        width: 100%;
+    }
+
+
+    
+}
